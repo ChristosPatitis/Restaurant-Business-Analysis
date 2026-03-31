@@ -97,4 +97,4 @@ This project demonstrates how data analysis can be used to drive business decisi
 ## Author
 
 Christos Patitis
-Aspiring Data Analyst
+
