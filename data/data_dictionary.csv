@@ -1,0 +1,36 @@
+file,column,description
+orders.csv,order_id,Unique order identifier
+orders.csv,order_datetime,Timestamp of the order
+orders.csv,order_date,Date of the order
+orders.csv,customer_id,Customer foreign key
+orders.csv,channel,"Dine-in, Takeaway, Delivery"
+orders.csv,location,Restaurant area or Online
+orders.csv,payment_method,"Card, Cash, Online"
+orders.csv,status,Completed or Cancelled
+orders.csv,subtotal_eur,Revenue before discounts and fees
+orders.csv,discount_eur,Discount applied to order
+orders.csv,delivery_fee_eur,Delivery fee if applicable
+orders.csv,total_revenue_eur,Final revenue from the order
+orders.csv,estimated_profit_eur,Estimated order-level profit
+order_items.csv,order_item_id,Unique line-item identifier
+order_items.csv,order_id,Order foreign key
+order_items.csv,menu_item_id,Menu item foreign key
+order_items.csv,item_name,Menu item name
+order_items.csv,category,Menu category
+order_items.csv,quantity,Units sold
+order_items.csv,unit_price_eur,Selling price per unit
+order_items.csv,unit_cost_eur,Estimated cost per unit
+order_items.csv,line_revenue_eur,Revenue per line
+order_items.csv,line_cost_eur,Cost per line
+order_items.csv,line_profit_eur,Profit per line
+menu_items.csv,menu_item_id,Unique menu item id
+menu_items.csv,item_name,Name of menu item
+menu_items.csv,category,Menu category
+menu_items.csv,price_eur,Price in euros
+menu_items.csv,cost_eur,Estimated cost in euros
+menu_items.csv,gross_margin_eur,Price minus cost
+customers.csv,customer_id,Unique customer id
+customers.csv,customer_name,Synthetic customer name
+customers.csv,city,Customer city
+customers.csv,segment,"Regular, Occasional, Tourist, Corporate"
+customers.csv,join_date,Customer join date
