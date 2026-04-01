@@ -117,5 +117,5 @@ By combining SQL, Python, and business thinking, it is possible to move from raw
 ## Author
 
 Christos Patitis
-Aspiring Data Analyst
+Data Analyst
 
