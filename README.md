@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project analyzes restaurant sales data to uncover key business insights related to revenue, customer behavior, product performance, and profitability.
+In this project, I analyze restaurant sales data to understand how the business performs over time, what customers are ordering, and which products generate the most profit.
 
-The goal is to simulate a real-world data analyst scenario and provide actionable recommendations to improve business performance.
+The goal is to approach this like a real data analyst: explore the data, identify patterns, and provide insights that could help improve business decisions.
 
 ---
 
@@ -13,67 +13,85 @@ The goal is to simulate a real-world data analyst scenario and provide actionabl
 The dataset includes:
 
 * Orders data
-* Order items (detailed sales)
-* Menu information (prices and costs)
+* Order item details (products sold per order)
+* Menu information (prices and estimated costs)
 * Customer data
 
-The data covers a full year (2025) and includes over 7,000 orders.
+The data covers a full year (2025) and contains over 7,000 orders, allowing for realistic analysis of trends and behavior.
 
 ---
 
 ## Tools Used
 
 * SQL (SQLite / DBeaver)
-* Python (pandas, matplotlib) *(optional)*
-* Tableau / Power BI *(optional)*
+* Python (pandas, matplotlib)
+* GitHub for version control
 
 ---
 
-## Key Analysis
+## Key Findings
 
 ### Monthly Revenue Trends
 
-* Revenue decreased in February, likely due to seasonal slowdown
-* Strong recovery observed in March
-* Peak performance occurred in June (€21,102), indicating high summer demand
-* Overall upward trend suggests increasing business activity over time
+Revenue shows some clear patterns over time. There is a noticeable drop in February, likely due to seasonal slowdown, followed by a strong recovery in March.
+
+Revenue continues to grow in the following months and reaches its peak in June, suggesting increased demand during the summer period. Overall, the trend indicates gradual business growth.
 
 ---
 
 ### Top-Selling Products
 
-* Lemonade is the best-selling item, indicating strong demand for beverages
-* Fries rank second, confirming the importance of side items in increasing order value
-* Chicken Wrap is the most popular main dish, suggesting it could be a flagship product
-* Sales distribution across drink, side, and main categories highlights strong cross-selling opportunities
+The analysis shows that Lemonade is the most sold product, highlighting strong demand for beverages. Fries also rank very high, confirming that side items play an important role in increasing order value.
+
+Chicken Wrap stands out as the most popular main dish. Overall, sales are distributed across drinks, sides, and mains, which suggests strong cross-selling behavior.
 
 ---
 
 ### Profitability Analysis
 
-* Main dishes generate the highest profit, making them the key revenue driver
-* Pasta and Pizza categories also contribute significantly to total profit
-* Drinks and sides show high sales volume but relatively low profit margins
-* This indicates that focusing on high-margin items is more impactful than high-volume products
+While some items sell more than others, profit tells a more important story.
+
+Main dishes generate the highest profit, followed by Pasta and Pizza categories. On the other hand, drinks and sides, although popular, contribute less to total profit.
+
+This shows that focusing on high-margin products is more impactful than simply increasing sales volume.
 
 ---
 
 ### Peak Hours Analysis
 
-* Highest order volume occurs between 18:00 and 21:00, indicating strong dinner demand
-* 19:00 is the peak hour with the highest number of orders
-* Lunch hours show lower activity, presenting an opportunity for promotions
-* Optimizing staffing during peak hours can improve service efficiency and revenue
+Customer activity is clearly concentrated in the evening. The highest number of orders occurs between 18:00 and 21:00, with 19:00 being the busiest hour.
+
+Lunch hours are noticeably weaker, which suggests an opportunity for promotions or targeted offers.
+
+This insight is especially useful for staffing and operational planning.
 
 ---
 
 ## Business Recommendations
 
+Based on the analysis, a few practical recommendations can be made:
+
 * Focus on promoting high-margin items such as main dishes, pasta, and pizza
-* Introduce combo deals (main + drink + side) to increase average order value
-* Adjust staffing to match peak demand during dinner hours
-* Implement lunch promotions to boost midday sales
-* Consider price optimization for drinks and sides to improve margins
+* Create combo deals (main + drink + side) to increase average order value
+* Allocate more staff during peak dinner hours to improve service speed
+* Introduce lunch promotions to increase midday sales
+* Consider small price adjustments for drinks and sides to improve margins
+
+---
+
+## Visualizations
+
+### Monthly Revenue
+
+![Monthly Revenue](images/monthly_revenue.png)
+
+### Top Selling Products
+
+![Top Products](images/top_products.png)
+
+### Profit by Category
+
+![Profit](images/profit_by_category.png)
 
 ---
 
@@ -83,18 +101,21 @@ restaurant-business-analysis/
 │── data/
 │── sql/
 │── notebooks/
-│── dashboard/
+│── images/
 │── README.md
 
 ---
 
 ## Conclusion
 
-This project demonstrates how data analysis can be used to drive business decisions in the restaurant industry. By combining SQL analysis with business thinking, valuable insights can be extracted to improve revenue and profitability.
+This project shows how data analysis can be used to better understand business performance and support decision-making.
+
+By combining SQL, Python, and business thinking, it is possible to move from raw data to actionable insights that can improve both revenue and profitability.
 
 ---
 
 ## Author
 
 Christos Patitis
+Aspiring Data Analyst
 
